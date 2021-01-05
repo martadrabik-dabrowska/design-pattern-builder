@@ -19,15 +19,12 @@ public class Aquarium {
     public String getWalls(){
         return walls;
     }
-
     public String getSand() {
         return sand;
     }
-
     public String getPlants() {
         return plants;
     }
-
     public String getFish() {
         return fish;
     }
@@ -67,13 +64,5 @@ public class Aquarium {
      public Aquarium build(){
          return new Aquarium(this);
      }
-
-
-
  }
-
-
-
-
-
 }
