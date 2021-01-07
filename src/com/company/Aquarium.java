@@ -15,6 +15,11 @@ public class Aquarium {
         this.fish = aquariumBuilder.fish;
         this.water = aquariumBuilder.water;
     }
+    
+    @Override
+    public String toString(){
+        return "Aquarium is made of: "  + walls + ", " + sand + ", " + plants + ", " + fish + ", " + water + ".";
+    }
 
     public String getWalls(){
         return walls;
